@@ -1,5 +1,8 @@
-## This file contains the method we applied in getting all the financial ratios of all compaines that are categorised in the same industry with FCW(wholesale distributors industry)
-## and Eurospan(home furnishing industry)
+## This file contains the method we applied in getting all the financial ratios of all compaines that are categorised in the same industry
+## with FCW(wholesale distributors industry) and Eurospan(home furnishing industry)
+
+
+## The financial ratios used in this assignment is collected from www.tradingview.com/
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
