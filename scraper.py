@@ -4,6 +4,15 @@
 
 ## The financial ratios used in this assignment is collected from www.tradingview.com/
 
+
+## In brief, we are collecting all companies' financial ratios in 2020 and 2021 that are categorised in the same industry with FCW and Eurospan. Since both
+## FCW and Eurospan are in different industry. Hence, there will be two industry average, home furnishing industry and wholesale distributors industry. 
+
+## After we collected all the data, we are finding the median of all the financial ratios in the particular indsutry as the industry average, the
+## idea of calculating the industry average by using this method is retrieved from www.simplywall.com/. 
+
+## For instance, if the industry has 3 company, and the current ratio for each company is 0.5, 1, 1.5, respectively. In this case, the industry average will be 1(median)
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
