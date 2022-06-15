@@ -51,7 +51,6 @@ def scraper(ticker: str):
 
 if __name__ == '__main__':
     tickers = fcw_competitors + eurospan_competitors
-    scraper(tickers[0])
     with open(r"C:\Users\USER\Python Programme\Acc Assignment\output.json", "w") as wf:
         wf.write(f"[\n")
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
